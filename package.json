@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/sad-gabi/create-chocola-app#readme",
   "bin": {
-    "chocola": "bin/chocola.mjs"
+    "chocola": "bin/chocola.js"
   },
   "dependencies": {
     "chocola": "^1.0.2",
