@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Package for the global command line interface for Chocola.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +28,10 @@
   },
   "homepage": "https://github.com/sad-gabi/create-chocola-app#readme",
   "bin": {
-    "chocola": "./bin/chocola.js"
+    "chocola": "bin/chocola.js"
+  },
+  "dependencies": {
+    "chocola": "^1.0.2",
+    "vite": "^7.1.1"
   }
 }
