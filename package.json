@@ -1,0 +1,29 @@
+{
+  "name": "create-chocola-app",
+  "version": "1.0.0",
+  "description": "Package for the global command line interface for Chocola.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sad-gabi/create-chocola-app.git"
+  },
+  "keywords": [
+    "chocola",
+    "chocolajs",
+    "web",
+    "app",
+    "vite",
+    "user",
+    "interface",
+    "cli"
+  ],
+  "author": "SadGabi <sadgabi20@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sad-gabi/create-chocola-app/issues"
+  },
+  "homepage": "https://github.com/sad-gabi/create-chocola-app#readme"
+}
