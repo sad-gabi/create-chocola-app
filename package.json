@@ -1,6 +1,6 @@
 {
   "name": "create-chocola-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package for the global command line interface for Chocola.js",
   "main": "index.js",
   "type": "module",
