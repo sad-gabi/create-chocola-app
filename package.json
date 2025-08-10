@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/sad-gabi/create-chocola-app/issues"
   },
-  "homepage": "https://github.com/sad-gabi/create-chocola-app#readme"
+  "homepage": "https://github.com/sad-gabi/create-chocola-app#readme",
+  "bin": {
+    "chocola": "./bin/chocola.js"
+  }
 }

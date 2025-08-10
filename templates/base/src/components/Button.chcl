@@ -1,0 +1,14 @@
+import commonScript from '../scripts/common.js';
+
+const Button = ({ text, onClick }) => ({
+  html: `<button class="btn">${text || 'Click me'}</button>`,
+  scripts: [
+    commonScript,  // imported reusable script
+    () => {        // inline script
+      const btn = document.querySelector('.btn');
+      if (btn && onClick) btn.addEventListener('click', onClick);
+    }
+  ]
+});
+
+export default Button;

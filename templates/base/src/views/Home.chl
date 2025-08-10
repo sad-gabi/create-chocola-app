@@ -1,0 +1,24 @@
+import Button from '../components/Button.chcl';
+import commonScript from '../scripts/common.js';
+
+const Home = ({ name }) => {
+  const button = Button({
+    text: 'Presiona aquí',
+    onClick: () => alert('¡Click!')
+  });
+
+  return {
+    title: 'Bienvenido ' + (name || 'invitado'),
+    html: `
+      <h1>Hola, ${name || 'invitado'}</h1>
+      ${button.html}
+    `,
+    scripts: [
+      commonScript,    // script importado reutilizable
+      ...button.scripts,  // scripts del componente
+      () => console.log('Scripts de Home ejecutados')
+    ]
+  }
+}
+
+export default Home;
